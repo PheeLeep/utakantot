@@ -14,7 +14,7 @@ Ang Utakantot ay isang esoteric programming language sa wikang Filipino, na nagm
 ## Bakit Utakantot? (Why Utakantot?)
 
 Gaya ng iminumungkahi ng pangalan, ang 'Utakantot' ay pinagsama ng dalawang salita sa wikang Filipino na 'utak' (lit. Brain)
-at 'kantot' (lit. fuck), at ito ay literal na salitang 'Brainfuck'. 
+at 'kantot' (lit. fuck), at ito ay literal na salitang ['Brainfuck'](https://esolangs.org/wiki/Brainfuck). 
 
 Subalit, ang mga pangalan ng utos sa Utakantot ay ginagamitan ng mga salitang Filipino at magkakahiwalay sa pamamagitan ng
 space (' '), sa halip na isang character na ginagamit ng Brainfuck. Pero ang kahulugan at layunin ng mga utos sa
