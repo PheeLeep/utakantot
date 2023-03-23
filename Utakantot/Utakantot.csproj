@@ -8,6 +8,8 @@
     <StartupObject>Utakantot.Programa</StartupObject>
     <IsPublishable>False</IsPublishable>
     <AnalysisLevel>6.0</AnalysisLevel>
+    <Platforms>AnyCPU;x86</Platforms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
