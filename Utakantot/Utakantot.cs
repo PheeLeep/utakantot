@@ -185,7 +185,7 @@ namespace Utakantot {
                             int ulit = 0;
                             int isa_pang_ay = i - 1;
                             if (isa_pang_ay < 0)
-                                throw new EskandalongNasobrahan("Duwag ka pala e. HAHAHAHHAHHAHHA", "Keywords after 'tamana' does not exists.");
+                                throw new EskandalongNasobrahan("Duwag ka pala e. HAHAHAHHAHHAHHA", "Keywords before 'tamana' does not exists.");
                             while (mga_boorneek[isa_pang_ay] != "sigepa" || ulit > 0) {
                                 switch (mga_boorneek[isa_pang_ay]) {
                                     case "sigepa": ulit--; break;
