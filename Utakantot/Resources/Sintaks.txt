@@ -1,0 +1,64 @@
+TULONG PARA SA 'MGA UTOS'
+============================================================================
+Ang mga pangalan ng utos ng 'Utakantot' ay iba sa mga pangalan ng utos ng 
+Brainfuck dahil nakabase ito sa wikang Filipino.
+Gayunpaman, ang mga utos ng 'Utakantutan' ay sumusunod pa rin sa parehong
+layunin ng mga utos ng Brainfuck, upang magpatakbo ng isang programa.
+
+(EN: The command names of 'Utakantot' are different from the command names
+of Brainfuck, as it is based on Filipino language.
+However, the commands of 'Utakantutan' still follows the same purposes as
+of Brainfuck's commands, in order to run a program.)
+
+
+Mga Pangalan ng Utos at ang Kahulugan:
+(EN: Command Names and its Meaning):
+
+ BF: | Utakantot: | Meaning:s
+  +  |   eut      | Dagdagan ang halaga ng kasalukuyang byte.
+     |            | (EN: Increase the current byte's value.)
+============================================================================
+  -  |   bayo     | Bawasan ang halaga ng kasalukuyang byte.
+     |            | (EN: Decrease the current byte's value.)
+============================================================================
+  <  |   himas    | Ilipat ang pointer sa kaliwa.
+     |            | (EN: Move a pointer to the left.)
+============================================================================
+  >  |   lamas    | Ilipat ang pointer sa kanan.
+     |            | (EN: Move a pointer to the right.)
+============================================================================
+  [  |   sigepa   | Pag ang kasalukuyang byte ay zero, lumagpas
+     |            | sa katugmang 'tamana'.
+     |            | (EN: If a current byte is zero, jump to
+     |            | the matching 'tamana')
+============================================================================
+  ]  |   tamana   | Pag ang kasalukuyang byte ay hindi zero,
+     |            | bumalik sa katugmang 'sigepa'.
+     |            | (EN: If a current byte is nonzero, jump back
+     |            | to the matching 'sigepa')
+============================================================================
+  .  |   ilabas   | Ilabas ang halaga ng byte, bilang character.
+     |            | (EN: Output the byte's value, as a character.)
+============================================================================
+  ,  |   isubo    | Magbigay ng halaga at ipasok sa kasalukuyang byte.
+     |            | (EN: Input a value and store it to the current byte.)
+
+At 'di tulad ng Brainfuck, ang keyword na 'maglaplap' ay isang linyang
+komento ng 'Utakantot'. Ang mga salita pagkatapos ng nasabing keyword ay
+babalewalain.
+(EN: Unlike Brainfuck, a keyword 'maglaplap' is a single-line comment
+of 'Utakantutan'. Any words after the said keyword will be ignore.)
+
+Ang mga natatanging pangalan ng utos ng 'Utakantot'
+(EN: Unique Command Names of 'Utakantot')
+
+ Mga utos: | Meaning:
+ isirit    | Ilabas ang hilaw na halaga ng kasalukuyang byte.
+           | (EN: Output the raw value of the current byte.)
+============================================================================
+ blessing  | Maagang tapusin ang programa.
+           | (EN: Terminate the program.)
+
+Ang mga utos ng 'Utakantot' ay magkakahiwalay sa pamamagitan ng
+space (' ').
+(EN: The commands of 'Utakantot' are separated using the space (' ').)

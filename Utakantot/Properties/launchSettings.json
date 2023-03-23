@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "Utakantot": {
+      "commandName": "Project"
+    },
+    "Utakantot - With Tae": {
+      "commandName": "Project",
+      "commandLineArgs": "-f test.utak"
+    },
+    "Utakantot Console": {
+      "commandName": "Project",
+      "commandLineArgs": "--wag-boso --gawa-script"
+    },
+    "Utakantot - W/ Tae and Bataan": {
+      "commandName": "Project",
+      "commandLineArgs": "-f test.tae -bataan"
+    },
+    "Help": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
+    }
+  }
+}

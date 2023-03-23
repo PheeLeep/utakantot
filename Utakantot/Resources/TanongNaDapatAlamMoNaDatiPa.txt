@@ -1,0 +1,26 @@
+Ang 'Utakantot' ay isang esoteric programming language sa wikang Filipino,
+na nagmula sa 'BrainFuck' na gawa ni Urban Müller
+(EN: 'Utakantot' is an esoteric programming language in the Filipino language, 
+derived from Urban Müller's 'BrainFuck')
+
+Mga Argumento (EN: Arguments):
+
+	-f <path>     : Paganahin ang kodigo mula sa file na may '.utak' sa dulo.
+	                (EN: Run code from a file with a '.utak' extension.)
+
+	-h            : Ipakita itong tulong.
+	                (EN: Show this Help text)
+
+	--gawa-script : Paganahin ang kodigo mula sa input ng user.
+	                (EN: Run code from user's input.)
+
+	-bataan       : Paganahin ang kodigo sa format na ASCII.
+	                (EN: Run code in ASCII format.)
+                    DEFAULT: UTF format.
+
+	--wag-boso    : Wag ipakita kung ano ang pinindot ng user.
+	                (EN: Don't reveal user's input)
+                    DEFAULT: OFF
+
+	-mga-utos     : Ipakita ang mga utos.
+	                (EN: Show commands)
