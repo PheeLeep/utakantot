@@ -7,9 +7,8 @@ layunin ng mga utos ng Brainfuck, upang magpatakbo ng isang programa.
 
 (EN: The command names of 'Utakantot' are different from the command names
 of Brainfuck, as it is based on Filipino language.
-However, the commands of 'Utakantutan' still follows the same purposes as
+However, the commands of 'Utakantot' still follows the same purposes as
 of Brainfuck's commands, in order to run a program.)
-
 
 Mga Pangalan ng Utos at ang Kahulugan:
 (EN: Command Names and its Meaning):
@@ -47,7 +46,7 @@ At 'di tulad ng Brainfuck, ang keyword na 'maglaplap' ay isang linyang
 komento ng 'Utakantot'. Ang mga salita pagkatapos ng nasabing keyword ay
 babalewalain.
 (EN: Unlike Brainfuck, a keyword 'maglaplap' is a single-line comment
-of 'Utakantutan'. Any words after the said keyword will be ignore.)
+of 'Utakantot'. Any words after the said keyword will be ignore.)
 
 Ang mga natatanging pangalan ng utos ng 'Utakantot'
 (EN: Unique Command Names of 'Utakantot')

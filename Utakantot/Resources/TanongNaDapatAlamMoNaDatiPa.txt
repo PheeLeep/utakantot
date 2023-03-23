@@ -22,5 +22,5 @@ Mga Argumento (EN: Arguments):
 	                (EN: Don't reveal user's input)
                     DEFAULT: OFF
 
-	-mga-utos     : Ipakita ang mga utos.
-	                (EN: Show commands)
+	--mga-utos    : Ipakita ang mga utos na gagamitin sa paggawa ng kodigo.
+	                (EN: Show commands to be use to create a code.)
